@@ -24,7 +24,7 @@ export const increaseApiLimit = async () => {
     });
   } else {
     await prismadb.userApiLimit.create({
-      data: { userId: useId, count: 1 },
+      data: { userId: userId, count: 1 },
     });
   }
 };
