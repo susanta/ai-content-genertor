@@ -41,7 +41,7 @@ export async function GET() {
       line_items: [
         {
           price_data: {
-            currency: 'USD',
+            currency: 'INR',
             product_data: {
               name: 'AI Content Generation Pro',
               description: 'Unlimited AI Generations',
